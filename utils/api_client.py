@@ -1,7 +1,7 @@
 import requests
 
-# BASE_API_URL = "http://0.0.0.0:8000"
-BASE_API_URL = "https://t5dpw1tm-8000.inc1.devtunnels.ms/docs"
+BASE_API_URL = "http://0.0.0.0:8000"
+# BASE_API_URL = "https://t5dpw1tm-8000.inc1.devtunnels.ms/docs"
 def signup(username, email, password):
     response = requests.post(
         f"{BASE_API_URL}/signup/",
